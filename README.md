@@ -57,7 +57,6 @@ TasTe is developed with [HuggingFaces's transformers](https://github.com/hugging
 - numpy==1.21.6
 - deepspeed==0.9.0
 - scikit-learn
-- flash-attn
 
 ## **🚀 Quick Start**<a name="start"></a>
 
@@ -67,7 +66,6 @@ TasTe is developed with [HuggingFaces's transformers](https://github.com/hugging
 git clone https://github.com/YutongWang1216/ReflectionLLMMT.git
 cd ReflectionLLMMT
 pip install -r requirments.txt
-pip install flash-attn --no-build-isolation
 ```
 
 ### **Fine-tuning for TasTe models**
