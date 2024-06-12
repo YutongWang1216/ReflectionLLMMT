@@ -7,7 +7,8 @@
 
 ## **📣 News**
 
-<!-- - **[24/04/2024] Our code and dataset for TasTe is released!** -->
+- **[24/04/2024] Our code and dataset for TasTe is released!**
+- **[15/05/2024] Our paper is accepted by ACL 2024 main conference!**
 
 
 ## **🔗 Quick Links**
@@ -48,10 +49,15 @@ To ensure the sufficient capability for the entire self-reflective translation p
 
 
 ## **🛠️ Requirements**<a name="requirements"></a>
-
-```bash
-
-```
+TasTe is developed with [HuggingFaces's transformers](https://github.com/huggingface/transformers) and [Deepspeed-chat](https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat).
+- Python 3.7.9
+- Pytorch 1.13.1+cu111
+- Transformers==4.28
+- accelerate==0.19.0
+- numpy==1.21.6
+- deepspeed==0.9.0
+- scikit-learn
+- flash-attn
 
 ## **🚀 Quick Start**<a name="start"></a>
 
@@ -61,6 +67,7 @@ To ensure the sufficient capability for the entire self-reflective translation p
 git clone https://github.com/YutongWang1216/ReflectionLLMMT.git
 cd ReflectionLLMMT
 pip install -r requirments.txt
+pip install flash-attn --no-build-isolation
 ```
 
 ### **Fine-tuning for TasTe models**
