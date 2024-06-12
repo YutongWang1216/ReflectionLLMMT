@@ -8,7 +8,7 @@
 ## **📣 News**
 
 - **[24/04/2024] Our code and dataset for TasTe is released!**
-- **[15/05/2024] Our paper is accepted by ACL 2024 main conference!**
+- **[15/05/2024] Our paper is accepted by [ACL 2024](https://2024.aclweb.org/) main conference!**
 
 
 ## **🔗 Quick Links**
