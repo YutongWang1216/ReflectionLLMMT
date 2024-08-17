@@ -9,7 +9,8 @@
 
 - **[24/04/2024] Our code and dataset for TasTe is released!**
 - **[15/05/2024] Our paper is accepted to the [ACL 2024](https://2024.aclweb.org/) main conference!**
-- **[13/06/2024] Our paper is published on arXiv: [arXiv:2406.08434](https://arxiv.org/abs/2406.08434)**
+- **[13/06/2024] Our paper is published on arXiv: [arXiv:2406.08434](https://arxiv.org/abs/2406.08434)!**
+- **[17/08/2024] Our paper is accessible in [ACL Anthology](https://aclanthology.org/2024.acl-long.333/)! Please cite our paper in [this format](#citation).**
 
 
 ## **🔗 Quick Links**
