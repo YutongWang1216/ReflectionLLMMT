@@ -121,12 +121,24 @@ There are also three choices of testing settings, corresponsing to three differe
 ## **📝 Citation**<a name="citation"></a>
 If you find this repo useful, please cite our paper as:
 ```
-@misc{wang2024taste,
-      title={TasTe: Teaching Large Language Models to Translate through Self-Reflection}, 
-      author={Yutong Wang and Jiali Zeng and Xuebo Liu and Fandong Meng and Jie Zhou and Min Zhang},
-      year={2024},
-      eprint={2406.08434},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{wang-etal-2024-taste,
+    title = "{T}as{T}e: Teaching Large Language Models to Translate through Self-Reflection",
+    author = "Wang, Yutong  and
+      Zeng, Jiali  and
+      Liu, Xuebo  and
+      Meng, Fandong  and
+      Zhou, Jie  and
+      Zhang, Min",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.acl-long.333",
+    pages = "6144--6158",
+    abstract = "Large language models (LLMs) have exhibited remarkable performance in various natural language processing tasks. Techniques like instruction tuning have effectively enhanced the proficiency of LLMs in the downstream task of machine translation. However, the existing approaches fail to yield satisfactory translation outputs that match the quality of supervised neural machine translation (NMT) systems. One plausible explanation for this discrepancy is that the straightforward prompts employed in these methodologies are unable to fully exploit the acquired instruction-following capabilities. To this end, we propose the $\textbf{TasTe}$ framework, which stands for translating through self-reflection. The self-reflection process includes two stages of inference. In the first stage, LLMs are instructed to generate preliminary translations and conduct self-assessments on these translations simultaneously. In the second stage, LLMs are tasked to refine these preliminary translations according to the evaluation results. The evaluation results in four language directions on the WMT22 benchmark reveal the effectiveness of our approach compared to existing methods. Our work presents a promising approach to unleash the potential of LLMs and enhance their capabilities in MT. The codes and datasets are open-sourced at https://github.com/YutongWang1216/ReflectionLLMMT.",
 }
 ```
